@@ -25,7 +25,8 @@ def command(commands: Union[str, List[str]]):
 async def on_vc_start(_, msg):
     chat_id = msg.chat.id
     try:
-        await msg.reply("<b>🤍 ᴠɪᴅᴇᴏ ᴄʜᴀᴛ sᴛᴀʀᴛᴇᴅ 🤍\n\n`ⁱᶠ ᵗʰᵉ ˢᵒⁿᵍ ᵈᵒᵉˢⁿ'ᵗ ᵖˡᵃʸ, ᵖˡᵉᵃˢᵉ ᵃˢᵏ ᶠᵒʳ ʰᵉˡᵖ = @vip_king1999 👑</b>")
+        await msg.reply("<b>🤍 ᴠɪᴅᴇᴏ ᴄʜᴀᴛ sᴛᴀʀᴛᴇᴅ 🤍\n🤍ϻᴧᴅє ʙʏ➥👑𝙏𝙔𝙋𝙄𝘾ᴾᵂᶠ👑"
+ </b>")
         # Remove st_stream call from here - it's causing the error
         await set_loop(chat_id, 0)
     except Exception as e:
